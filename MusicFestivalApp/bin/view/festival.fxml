@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text layoutX="172.0" layoutY="91.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Select a stage to view it's lineup" wrappingWidth="229.13671875">
+         <font>
+            <Font name="Consolas" size="12.0" />
+         </font>
+      </Text>
+      <Text layoutX="250.0" layoutY="23.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome to" wrappingWidth="72.02734375">
+         <font>
+            <Font name="Consolas" size="12.0" />
+         </font>
+      </Text>
+      <Text fx:id="festivalNameHeader" layoutX="121.0" layoutY="56.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="331.13671875">
+         <font>
+            <Font name="Consolas" size="40.0" />
+         </font></Text>
+      <Button layoutX="134.0" layoutY="111.0" mnemonicParsing="false" onAction="#changeToSadStage" text="Sad Stage">
+         <font>
+            <Font name="Consolas" size="12.0" />
+         </font></Button>
+      <Button layoutX="131.0" layoutY="153.0" mnemonicParsing="false" onAction="#changeToBlueStage" text="Blue Stage">
+         <font>
+            <Font name="Consolas" size="12.0" />
+         </font></Button>
+      <Button layoutX="134.0" layoutY="200.0" mnemonicParsing="false" onAction="#changeToRedStage" text="Red Stage">
+         <font>
+            <Font name="Consolas" size="12.0" />
+         </font></Button>
+      <Button layoutX="331.0" layoutY="111.0" mnemonicParsing="false" onAction="#changeToHappyStage" text="Happy Stage">
+         <font>
+            <Font name="Consolas" size="12.0" />
+         </font></Button>
+      <Button layoutX="338.0" layoutY="153.0" mnemonicParsing="false" onAction="#changeToBigStage" text="Big Stage">
+         <font>
+            <Font name="Consolas" size="12.0" />
+         </font></Button>
+      <Button layoutX="335.0" layoutY="200.0" mnemonicParsing="false" onAction="#changeToTinyStage" text="Tiny Stage">
+         <font>
+            <Font name="Consolas" size="12.0" />
+         </font></Button>
+   </children>
+</Pane>

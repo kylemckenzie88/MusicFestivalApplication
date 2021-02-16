@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text fx:id="stageName" layoutX="14.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="200.9765625">
+         <font>
+            <Font name="Consolas" size="34.0" />
+         </font>
+      </Text>
+      <Text fx:id="bandsInLineup" layoutX="13.0" layoutY="148.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="186.16796875">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <ListView fx:id="listView" editable="true" layoutX="215.0" layoutY="61.0" prefHeight="223.0" prefWidth="334.0" />
+      <Text layoutX="10.0" layoutY="292.0" strokeType="OUTSIDE" strokeWidth="0.0" text="with selected band:" wrappingWidth="193.13671875">
+         <font>
+            <Font name="Consolas" size="18.0" />
+         </font>
+      </Text>
+      <Button layoutX="58.0" layoutY="308.0" mnemonicParsing="false" onAction="#moveUp" text="Move up in lineup" />
+      <Button layoutX="200.0" layoutY="308.0" mnemonicParsing="false" onAction="#moveDown" text="Move down in lineup" />
+      <Button layoutX="406.0" layoutY="349.0" mnemonicParsing="false" onAction="#relocateBand" text="Relocate selcted band" />
+      <Button layoutX="506.0" layoutY="31.0" mnemonicParsing="false" onAction="#goHome" text="Home">
+         <font>
+            <Font name="Consolas" size="12.0" />
+         </font>
+      </Button>
+      <ComboBox fx:id="relocationOptions" layoutX="397.0" layoutY="308.0" prefWidth="150.0" />
+   </children>
+</Pane>
