@@ -1,1 +1,2 @@
 # MusicFestivalApplication
+This application reads from a comma delimited file creating 6 different stages and multiple bands to be placed in observable lists. It begins by displaying a home view with a button for each stage. Clicking a button changes the view to a stage view and displays the bands currently in a stages observable list. The stage view contains functionality to move a band up or down the list or relocate a band to another stage.
